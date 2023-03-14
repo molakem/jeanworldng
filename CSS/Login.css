@@ -1,0 +1,26 @@
+
+.login{
+    display: grid;
+    /* grid-template-columns: auto; */
+    padding: 10px 0;
+    margin:  0 auto;
+    gap: 1rem;
+    width: 30%;
+
+}
+.login label{
+    display: grid;
+}
+.login label input{
+    padding: 8px 12px;
+}
+button{
+    cursor: pointer;
+   color: #19294b;
+   background-color: white
+   
+    
+}
+button:hover{
+   color: red
+}

@@ -1,0 +1,15 @@
+.hero{
+    font-size: 30px;
+}
+.gifting{
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+}
+.gifting-1{
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+.gifting-2{
+    /* text-align: justify; */
+}
