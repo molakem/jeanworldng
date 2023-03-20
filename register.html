@@ -5,33 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/Login.css">
+    <title>Register <Form></Form>
+    </title>
+    <link rel="stylesheet" href="./CSS/register.css">
+
 </head>
 
 <body>
-    <form action="adekemi487@gmail.com" method="post">
-        <div class="login">
-            <label for="usame">
-                Email <br>
-                <input id="usame" type="text" placeholder="Enter your mail">
-            </label>
-            <label for="usame">
-                Fist Name <br>
-                <input id="fsame" type="text" placeholder="Enter your First Name">
-            </label>
-            <label for="usame">
-                Last Name <br>
-                <input id="lsame" type="text" placeholder="Enter your Last Name">
-            </label>
-            <label for="password">
-                Password <br>
-                <input id="password" type="password" placeholder="Enter Your password">
-            </label>
-
-            <button type="submit">Register</button>
+    <div class="register-form">
+        <h2>Register</h2>
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="fname" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="lname" id="lname">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <input type="Submit" value="Register">
+        </form>
+        <div class="links">
+            <span>Already have an account?</span>
+            <a href="./login.html">Login</a>
         </div>
-    </form>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
